@@ -1,0 +1,24 @@
+.mainAboutcontainer {
+    padding: 35px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.aboutUs {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 200;
+    margin-bottom: 1em;
+    margin-top: 0;
+}
+.p1 {
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+.p2 {
+    margin-top: 0;
+    margin-bottom: 2em;    
+}
+
+
+

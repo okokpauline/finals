@@ -1,0 +1,72 @@
+.mainContentContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contactH1 {
+    font-size: 28px;
+}
+.contactSectionContainer {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 30px;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.contactH1,
+label,
+input,
+textarea,
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.email, .phone {
+    font-size: 22px;
+}
+.contactEmail, .contactPhone {
+    font-size: 18px;
+}
+.contactSub {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.contactSub > label {
+    font-size: 18px;
+    margin-top: 20px;
+}
+.contactSub > input,
+.contactSub > textarea,
+.submitButton {
+    font-size: 16px;
+}
+.contactSub > input {
+    height: 35px;
+}
+.contactSub > textarea {
+    height: 150px;
+}
+.contactSub > input,
+.contactSub > textarea,
+.submitButton {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 300px;
+}
+.submitButton {
+    padding: 10px;
+    margin-top: 15px;
+    width: 150px;
+    align-self: center;
+}
+.bold {
+    font-weight: bold;
+}
+@media screen and (max-width: 959px) {
+    .mainContentContainer {
+        flex-direction: column;
+    }
+}

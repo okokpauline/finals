@@ -1,0 +1,191 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+.headerBottomBorder {
+    border-bottom: 2px solid rgba(171, 171, 171, 50%);
+    margin: 0 3%;
+}
+.login {
+    color: rgb(123, 116, 116);
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.headerContainer > div a {
+text-decoration: none;
+}
+.active {
+    font-weight: bold;
+    color: #d2d2d2;
+}
+.logoAndTitleContainer,
+.authContainer {
+    width: 60%;
+}
+.navContainer {
+    width: 100%;
+}
+.logoAndTitleContainer {
+    display: flex;
+    justify-content: flex-start;
+}
+.authContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Logomoon {
+    width: 50px;
+    transform: translate(25px, 0px) rotate(25deg);
+}
+.titleOfCompany {
+    color: rgb(33, 29, 29);
+    font-family: carry you;
+    font-size: 40px; 
+    font-weight: lighter;
+}
+.slideshow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+}
+.cycle-slideshow {
+    width: 100%;
+}
+.cycle-slideshow img {
+    width: 100%;
+}
+.navlistContainer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    list-style-type: none;
+    font-size: 25px;
+    margin: 0px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sushiButton {
+    width: 200px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    display: flex;
+}
+.buttonContainer {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.footerContainer {
+    border-top: 1px solid #d3d5db;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.footerLinksContainer ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footerLinksContainer li a {  
+    text-decoration: none;
+    color:#d3d5db;
+}
+.footerLinksContainer,
+.credits {
+    padding: 20px;
+}
+.footerLinksContainer {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 100%;
+}
+.footerLinksRight {
+    margin-left: 20px;
+}
+.credits {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    text-align: right;
+    margin-right: 30px;
+}
+.credits p {
+    width: 100%;
+}
+.navAuthContainer {
+    display: flex;
+}
+.navBarNavContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navBarNavContainer a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.navBarNavContainer a:hover {
+    color: #d2d2d2 !important;
+}
+
+@media screen and (max-width: 959px) {
+    .searchBar {
+     display: none;
+    }
+    .authContainer {
+     display: none;
+    }
+    .navlistContainer {
+    display: none;
+    }
+    .Logomoon {       
+    width: 40px;
+    transform: translate(15px, 0px) rotate(25deg);
+    }
+    .logoAndTitleContainer {
+        width: 100%;
+        justify-content: center;
+    }
+    .navContainer {
+        width: inherit;
+        justify-content: flex-end !important;
+    }
+    .navAuthContainer {
+        flex-direction: column;
+    }
+    .titleOfCompany {
+        color: rgb(33, 29, 29);
+        font-family: carry you;
+        font-size: 38px; 
+        font-weight: lighter;
+        max-width: 100%;
+    }
+    .sushiButton {
+        width: 200px;
+    }
+    .footerContainer {
+        flex-direction: column;
+    }
+    .credits p {
+        font-size: 12px;
+    }
+}
